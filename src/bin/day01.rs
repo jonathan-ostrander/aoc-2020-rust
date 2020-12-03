@@ -2,7 +2,7 @@ use std::fs;
 use std::collections::HashSet;
 
 fn main() {
-  let contents = fs::read_to_string("src/input/dayone.txt")
+  let contents = fs::read_to_string("src/input/day01.txt")
     .expect("error reading the file");
   let lines = contents.lines();
   let mut input = HashSet::new();

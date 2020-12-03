@@ -3,7 +3,7 @@ use std::str::FromStr;
 use std::convert::TryFrom;
 
 fn main() {
-  let contents = fs::read_to_string("src/input/daytwo.txt")
+  let contents = fs::read_to_string("src/input/day02.txt")
     .expect("error reading the file");
   let lines = contents.lines();
   let mut valid = 0;
